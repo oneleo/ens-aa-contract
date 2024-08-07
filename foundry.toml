@@ -1,0 +1,12 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    "lib/offchain-resolver:@ensdomains/ens-contracts=lib/ens-contracts",
+    "lib/offchain-resolver:@openzeppelin=lib/openzeppelin-contracts",
+    "@ens-contracts=lib/ens-contracts",
+    "@offchain-resolver=lib/offchain-resolver"
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
