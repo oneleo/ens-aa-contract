@@ -1,0 +1,9 @@
+[submodule "lib/ens-contracts"]
+	path = lib/ens-contracts
+	url = https://github.com/ensdomains/ens-contracts
+[submodule "lib/offchain-resolver"]
+	path = lib/offchain-resolver
+	url = https://github.com/ensdomains/offchain-resolver
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
